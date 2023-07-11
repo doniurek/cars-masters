@@ -2,7 +2,7 @@ import { useState } from 'react'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 function Navbar() {
-  const [nav, setNav] = useState(false)
+  const [nav, setNav] = useState(true)
 
   const handleNav = () => {
     setNav(!nav)
