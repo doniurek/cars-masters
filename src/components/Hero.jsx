@@ -2,8 +2,8 @@ import Typed from "react-typed"
 
 function Hero() {
   return (
-    <div className="text-white">
-      <div className="max-w-[1024px] mt-[-96px] h-screen text-center flex flex-col justify-center mx-auto">
+    <div name="home" className="text-white">
+      <div className="max-w-[1024px] h-screen text-center flex flex-col justify-center mx-auto">
         <p className="text-[#ACBEBE] font-bold p-2">WE WILL PROVIDE YOUR CAR WITH A LONG AND HAPPY LIFE</p>
         <h1 className="text-[#A01D26] md:text-7xl sm:text-6xl text-4xl md:py-6 font-bold">Spoil your car</h1>
         <div className="flex justify-center items-center">
