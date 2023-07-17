@@ -3,7 +3,7 @@ function Offer() {
     <div name="offer" className="text-[#F4F4EF]">
       <div className="max-w-[1024px] mt-[-96px] flex flex-col justify-center mx-auto">
         <h2 className="md:text-4xl sm:text-3xl text-l font-bold text-[#ACBEBE] mx-4">Our offer includes:</h2>
-        <ul className='space-y-4 md:text-l text-md font-medium mx-4 p-4 list-image-[url("src/wrench.svg")]'>
+        <ul className='space-y-4 md:text-l text-md font-medium mx-4 p-4 list-image-[url("src/img/wrench.svg")]'>
           <li>
             General Vehicle Inspections: Comprehensive examinations of the vehicle&apos;s major components to identify any issues or potential problems.
           </li>
