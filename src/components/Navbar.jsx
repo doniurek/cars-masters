@@ -10,7 +10,7 @@ function Navbar() {
   }
 
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-[#F4F4EF]">
+    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-[#F4F4EF] sticky top-0 bg-[#20232a]">
       <h1 className="w-full text-3xl font-bold text-[#A01D26]">Cars Masters</h1>
       <ul className="hidden md:flex">
       <li className="p-4">
