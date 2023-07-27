@@ -18,6 +18,14 @@ function Contact() {
         </div>
 
       </div>
+      <form action="" className="flex flex-col max-w-[600px] mx-auto">
+        <h2 className="text-[#ACBEBE] font-bold text-xl mx-2 py-4">Leave us a message</h2>
+        <input className="mb-4 mx-2 p-2 bg-[#F4F4FE] rounded" type="text" placeholder="Name" name="name"/>
+        <input className="mb-4 mx-2 p-2 bg-[#F4F4FE] rounded" type="text" placeholder="Car brand and model" name="car"/>
+        <input className="mb-4 mx-2 p-2 bg-[#F4F4FE] rounded" type="email" placeholder="Email" name="email"/>
+        <textarea className="mb-4 mx-2 p-2 bg-[#F4F4FE] rounded" rows="10" placeholder="Message" name="message"/>
+        <button className="border border- rounded font-bold hover:bg-[#ACBEBE] hover:text-[#20232a] mx-auto py-2 px-8">Submit</button>
+      </form>
     </div>
   )
 }
