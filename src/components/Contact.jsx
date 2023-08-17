@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { addDoc, collection, serverTimestamp } from "firebase/firestore"
 import db from "../firebase.config.js"
+import { toast } from 'react-toastify'
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -22,6 +23,17 @@ function Contact() {
     await addDoc(collection(db, 'messages'), formDataCopy)
 
     document.getElementById("contact-form").reset()
+
+    toast.success('Message sent', {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      });
   }
 
   const onChange = (e) => {
